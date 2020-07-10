@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app">
+    <sys_app action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <can_edit_in_studio>false</can_edit_in_studio>
+        <enforce_license>none</enforce_license>
+        <js_level>helsinki_es5</js_level>
+        <licensable>true</licensable>
+        <license_category>none</license_category>
+        <license_model>none</license_model>
+        <logo/>
+        <menu display_value="COVID-19 Tracking">23601a1b1b7d10d0fc3c2f876e4bcb01</menu>
+        <name>COVID-19 Tracking</name>
+        <private>false</private>
+        <restrict_table_access>false</restrict_table_access>
+        <runtime_access_tracking>permissive</runtime_access_tracking>
+        <scope>x_nefm_covid_19_tr</scope>
+        <scoped_administration>false</scoped_administration>
+        <short_description/>
+        <source>x_nefm_covid_19_tr</source>
+        <store_correlation_id/>
+        <store_url/>
+        <sys_class_name>sys_app</sys_class_name>
+        <sys_code/>
+        <sys_created_by>aaron.schmid</sys_created_by>
+        <sys_created_on>2020-07-09 19:50:46</sys_created_on>
+        <sys_id>67609e1b1b3d10d0fc3c2f876e4bcbc1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>aaron.schmid</sys_updated_by>
+        <sys_updated_on>2020-07-09 19:50:46</sys_updated_on>
+        <template/>
+        <trackable>true</trackable>
+        <user_role display_value="x_nefm_covid_19_tr.user" name="x_nefm_covid_19_tr.user">bb601a1b1b7d10d0fc3c2f876e4bcbf1</user_role>
+        <vendor/>
+        <vendor_prefix/>
+        <version>1.0.0</version>
+    </sys_app>
+</record_update>
