@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_case_status" table="x_nefm_covid_19_tr_cases" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_case_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>New</label>
+            <language>en</language>
+            <name>x_nefm_covid_19_tr_cases</name>
+            <sequence>0</sequence>
+            <sys_created_by>aaron.schmid</sys_created_by>
+            <sys_created_on>2020-07-29 19:58:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>b20291bd1bd2dc14fc3c2f876e4bcb11</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>aaron.schmid</sys_updated_by>
+            <sys_updated_on>2020-07-29 19:58:42</sys_updated_on>
+            <value>new</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_case_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Pending Approval</label>
+            <language>en</language>
+            <name>x_nefm_covid_19_tr_cases</name>
+            <sequence>1</sequence>
+            <sys_created_by>aaron.schmid</sys_created_by>
+            <sys_created_on>2020-07-29 19:58:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>f20291bd1bd2dc14fc3c2f876e4bcb12</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>aaron.schmid</sys_updated_by>
+            <sys_updated_on>2020-07-29 21:57:26</sys_updated_on>
+            <value>pending approval</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_case_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Rejected</label>
+            <language>en</language>
+            <name>x_nefm_covid_19_tr_cases</name>
+            <sequence>2</sequence>
+            <sys_created_by>aaron.schmid</sys_created_by>
+            <sys_created_on>2020-07-29 19:58:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>720291bd1bd2dc14fc3c2f876e4bcb13</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>aaron.schmid</sys_updated_by>
+            <sys_updated_on>2020-07-29 19:58:42</sys_updated_on>
+            <value>rejected</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_case_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Resubmitted</label>
+            <language>en</language>
+            <name>x_nefm_covid_19_tr_cases</name>
+            <sequence>3</sequence>
+            <sys_created_by>aaron.schmid</sys_created_by>
+            <sys_created_on>2020-07-29 19:58:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>fe0291bd1bd2dc14fc3c2f876e4bcb13</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>aaron.schmid</sys_updated_by>
+            <sys_updated_on>2020-07-29 19:58:42</sys_updated_on>
+            <value>resubmitted</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_case_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Resubmitted Test Results</label>
+            <language>en</language>
+            <name>x_nefm_covid_19_tr_cases</name>
+            <sequence>4</sequence>
+            <sys_created_by>aaron.schmid</sys_created_by>
+            <sys_created_on>2020-07-30 14:08:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>118b850a1b1e5814123b0d076e4bcb49</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>aaron.schmid</sys_updated_by>
+            <sys_updated_on>2020-07-30 14:08:41</sys_updated_on>
+            <value>resubmitted test results</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_case_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Approved - Monitoring</label>
+            <language>en</language>
+            <name>x_nefm_covid_19_tr_cases</name>
+            <sequence>5</sequence>
+            <sys_created_by>aaron.schmid</sys_created_by>
+            <sys_created_on>2020-07-29 19:58:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>7e0291bd1bd2dc14fc3c2f876e4bcb14</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>aaron.schmid</sys_updated_by>
+            <sys_updated_on>2020-07-30 14:08:41</sys_updated_on>
+            <value>approved - monitoring</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_case_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Closed</label>
+            <language>en</language>
+            <name>x_nefm_covid_19_tr_cases</name>
+            <sequence>6</sequence>
+            <sys_created_by>aaron.schmid</sys_created_by>
+            <sys_created_on>2020-07-29 19:58:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>fa0291bd1bd2dc14fc3c2f876e4bcb15</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>aaron.schmid</sys_updated_by>
+            <sys_updated_on>2020-07-30 14:08:41</sys_updated_on>
+            <value>closed</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_case_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Awaiting Test Results</label>
+            <language>en</language>
+            <name>x_nefm_covid_19_tr_cases</name>
+            <sequence>7</sequence>
+            <sys_created_by>aaron.schmid</sys_created_by>
+            <sys_created_on>2020-07-30 13:46:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>d1860d821b1e5814123b0d076e4bcbb3</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>aaron.schmid</sys_updated_by>
+            <sys_updated_on>2020-07-30 14:08:41</sys_updated_on>
+            <value>awaiting test results</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_case_status</element>
+            <name>x_nefm_covid_19_tr_cases</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>aaron.schmid</sys_created_by>
+            <sys_created_on>2020-07-29 19:58:42</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>fa0291bd1bd2dc14fc3c2f876e4bcb11</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_case_status</sys_name>
+            <sys_package display_value="COVID-19 Tracking" source="x_nefm_covid_19_tr">67609e1b1b3d10d0fc3c2f876e4bcbc1</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="COVID-19 Tracking">67609e1b1b3d10d0fc3c2f876e4bcbc1</sys_scope>
+            <sys_update_name>sys_choice_x_nefm_covid_19_tr_cases_u_case_status</sys_update_name>
+            <sys_updated_by>aaron.schmid</sys_updated_by>
+            <sys_updated_on>2020-07-29 19:58:42</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

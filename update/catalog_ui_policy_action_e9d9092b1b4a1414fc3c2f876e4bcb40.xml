@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="COVID-19 Tracking">417fa8a31bc61414fc3c2f876e4bcb2d</catalog_item>
+        <catalog_variable>IO:5a7f28e31bc61414fc3c2f876e4bcbcc</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>aaron.schmid</sys_created_by>
+        <sys_created_on>2020-07-22 19:36:30</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>e9d9092b1b4a1414fc3c2f876e4bcb40</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_status</sys_name>
+        <sys_package display_value="COVID-19 Tracking" source="x_nefm_covid_19_tr">67609e1b1b3d10d0fc3c2f876e4bcbc1</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="COVID-19 Tracking">67609e1b1b3d10d0fc3c2f876e4bcbc1</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_e9d9092b1b4a1414fc3c2f876e4bcb40</sys_update_name>
+        <sys_updated_by>aaron.schmid</sys_updated_by>
+        <sys_updated_on>2020-07-22 19:36:30</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Staff member">ea1949e71b4a1414fc3c2f876e4bcba7</ui_policy>
+        <variable>u_status</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+</record_update>

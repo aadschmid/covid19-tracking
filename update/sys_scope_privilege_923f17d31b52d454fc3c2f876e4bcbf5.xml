@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="INSERT_OR_UPDATE">
+        <operation>read</operation>
+        <source_scope display_value="COVID-19 Tracking">67609e1b1b3d10d0fc3c2f876e4bcbc1</source_scope>
+        <status>allowed</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>aaron.schmid</sys_created_by>
+        <sys_created_on>2020-08-03 22:06:25</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>923f17d31b52d454fc3c2f876e4bcbf5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sys_user</sys_name>
+        <sys_package display_value="COVID-19 Tracking" source="x_nefm_covid_19_tr">67609e1b1b3d10d0fc3c2f876e4bcbc1</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="COVID-19 Tracking">67609e1b1b3d10d0fc3c2f876e4bcbc1</sys_scope>
+        <sys_update_name>sys_scope_privilege_923f17d31b52d454fc3c2f876e4bcbf5</sys_update_name>
+        <sys_updated_by>aaron.schmid</sys_updated_by>
+        <sys_updated_on>2020-08-03 22:06:25</sys_updated_on>
+        <target_name>sys_user</target_name>
+        <target_scope display_value="Global">global</target_scope>
+        <target_type>sys_db_object</target_type>
+    </sys_scope_privilege>
+</record_update>

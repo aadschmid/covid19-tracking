@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_location_choice" table="x_nefm_covid_19_tr_cases" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_location_choice</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Des Moines</label>
+            <language>en</language>
+            <name>x_nefm_covid_19_tr_cases</name>
+            <sequence>0</sequence>
+            <sys_created_by>aaron.schmid</sys_created_by>
+            <sys_created_on>2020-07-16 17:39:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>ab95b9291bc6d8d0fc3c2f876e4bcb00</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>aaron.schmid</sys_updated_by>
+            <sys_updated_on>2020-07-16 17:39:57</sys_updated_on>
+            <value>des moines</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_location_choice</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Kansas City</label>
+            <language>en</language>
+            <name>x_nefm_covid_19_tr_cases</name>
+            <sequence>1</sequence>
+            <sys_created_by>aaron.schmid</sys_created_by>
+            <sys_created_on>2020-07-16 17:39:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>eb95b9291bc6d8d0fc3c2f876e4bcb01</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>aaron.schmid</sys_updated_by>
+            <sys_updated_on>2020-07-16 17:39:57</sys_updated_on>
+            <value>kansas city</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_location_choice</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Omaha</label>
+            <language>en</language>
+            <name>x_nefm_covid_19_tr_cases</name>
+            <sequence>2</sequence>
+            <sys_created_by>aaron.schmid</sys_created_by>
+            <sys_created_on>2020-07-16 17:39:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>6b95b9291bc6d8d0fc3c2f876e4bcb02</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>aaron.schmid</sys_updated_by>
+            <sys_updated_on>2020-07-16 17:39:57</sys_updated_on>
+            <value>omaha</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_location_choice</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>The Colony</label>
+            <language>en</language>
+            <name>x_nefm_covid_19_tr_cases</name>
+            <sequence>3</sequence>
+            <sys_created_by>aaron.schmid</sys_created_by>
+            <sys_created_on>2020-07-16 17:39:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>e795b9291bc6d8d0fc3c2f876e4bcb03</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>aaron.schmid</sys_updated_by>
+            <sys_updated_on>2020-07-16 17:39:57</sys_updated_on>
+            <value>the colony</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_location_choice</element>
+            <name>x_nefm_covid_19_tr_cases</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>aaron.schmid</sys_created_by>
+            <sys_created_on>2020-07-16 17:39:57</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>e395b9291bc6d8d0fc3c2f876e4bcb01</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_location_choice</sys_name>
+            <sys_package display_value="COVID-19 Tracking" source="x_nefm_covid_19_tr">67609e1b1b3d10d0fc3c2f876e4bcbc1</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="COVID-19 Tracking">67609e1b1b3d10d0fc3c2f876e4bcbc1</sys_scope>
+            <sys_update_name>sys_choice_x_nefm_covid_19_tr_cases_u_location_choice</sys_update_name>
+            <sys_updated_by>aaron.schmid</sys_updated_by>
+            <sys_updated_on>2020-07-16 17:39:57</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

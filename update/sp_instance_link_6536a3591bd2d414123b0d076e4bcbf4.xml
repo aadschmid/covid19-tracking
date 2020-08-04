@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
+    <sp_instance_link action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color/>
+        <css/>
+        <glyph>medkit</glyph>
+        <id/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <order>1</order>
+        <roles/>
+        <sc_cat_item/>
+        <sc_category/>
+        <short_description>For managers only: report a case or potential case of COVID-19</short_description>
+        <size>md</size>
+        <sp_column display_value="1">22262f191bd2d414123b0d076e4bcb84</sp_column>
+        <sp_page/>
+        <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>aaron.schmid</sys_created_by>
+        <sys_created_on>2020-07-28 17:29:06</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>6536a3591bd2d414123b0d076e4bcbf4</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Report a Case</sys_name>
+        <sys_package display_value="COVID-19 Tracking" source="x_nefm_covid_19_tr">67609e1b1b3d10d0fc3c2f876e4bcbc1</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="COVID-19 Tracking">67609e1b1b3d10d0fc3c2f876e4bcbc1</sys_scope>
+        <sys_update_name>sp_instance_link_6536a3591bd2d414123b0d076e4bcbf4</sys_update_name>
+        <sys_updated_by>aaron.schmid</sys_updated_by>
+        <sys_updated_on>2020-07-29 18:11:39</sys_updated_on>
+        <title>Report a Case</title>
+        <type>url</type>
+        <url>https://nfmtest.service-now.com/sp?id=sc_cat_item&amp;sys_id=417fa8a31bc61414fc3c2f876e4bcb2d&amp;sysparm_category=341acee5db1e63007b0fa7754b96199d</url>
+        <widget_parameters><![CDATA[{
+	"link_template": {
+		"value": "Top Icon",
+		"displayValue": "Top Icon"
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="delete_multiple" query="documentkey=6536a3591bd2d414123b0d076e4bcbf4"/>
+</record_update>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>u_other_reason</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>aaron.schmid</sys_created_by>
+        <sys_created_on>2020-07-13 21:53:33</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>3ad2d3ac1bc2d4d0fc3c2f876e4bcb4b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_other_reason</sys_name>
+        <sys_package display_value="COVID-19 Tracking" source="x_nefm_covid_19_tr">67609e1b1b3d10d0fc3c2f876e4bcbc1</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="COVID-19 Tracking">67609e1b1b3d10d0fc3c2f876e4bcbc1</sys_scope>
+        <sys_update_name>sys_ui_policy_action_3ad2d3ac1bc2d4d0fc3c2f876e4bcb4b</sys_update_name>
+        <sys_updated_by>aaron.schmid</sys_updated_by>
+        <sys_updated_on>2020-07-13 21:53:33</sys_updated_on>
+        <table>x_nefm_covid_19_tr_cases</table>
+        <ui_policy display_value="Other not working reason">e3a29f6c1bc2d4d0fc3c2f876e4bcb9e</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+</record_update>

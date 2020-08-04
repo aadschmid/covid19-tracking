@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_neg_pto_bal" table="x_nefm_covid_19_tr_cases" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_neg_pto_bal</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Yes</label>
+            <language>en</language>
+            <name>x_nefm_covid_19_tr_cases</name>
+            <sequence>0</sequence>
+            <sys_created_by>aaron.schmid</sys_created_by>
+            <sys_created_on>2020-07-15 18:53:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>0fdcfcdd1bce58d0fc3c2f876e4bcb19</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>aaron.schmid</sys_updated_by>
+            <sys_updated_on>2020-07-15 18:53:30</sys_updated_on>
+            <value>yes</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_neg_pto_bal</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No</label>
+            <language>en</language>
+            <name>x_nefm_covid_19_tr_cases</name>
+            <sequence>1</sequence>
+            <sys_created_by>aaron.schmid</sys_created_by>
+            <sys_created_on>2020-07-15 18:53:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>4fdcfcdd1bce58d0fc3c2f876e4bcb1a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>aaron.schmid</sys_updated_by>
+            <sys_updated_on>2020-07-15 18:53:30</sys_updated_on>
+            <value>no</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_neg_pto_bal</element>
+            <name>x_nefm_covid_19_tr_cases</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>aaron.schmid</sys_created_by>
+            <sys_created_on>2020-07-15 18:53:30</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>47dcfcdd1bce58d0fc3c2f876e4bcb1a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_neg_pto_bal</sys_name>
+            <sys_package display_value="COVID-19 Tracking" source="x_nefm_covid_19_tr">67609e1b1b3d10d0fc3c2f876e4bcbc1</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="COVID-19 Tracking">67609e1b1b3d10d0fc3c2f876e4bcbc1</sys_scope>
+            <sys_update_name>sys_choice_x_nefm_covid_19_tr_cases_u_neg_pto_bal</sys_update_name>
+            <sys_updated_by>aaron.schmid</sys_updated_by>
+            <sys_updated_on>2020-07-15 18:53:30</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

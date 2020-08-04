@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_report">
+    <sysauto_report action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <address_list/>
+        <condition/>
+        <conditional>false</conditional>
+        <group_list/>
+        <include_detail>false</include_detail>
+        <include_with display_value="Test">01a69e7d1b8ed4d0123b0d076e4bcbf7</include_with>
+        <name>Report 2</name>
+        <omit_if_no_records>false</omit_if_no_records>
+        <output_type>PDF-landscape</output_type>
+        <page_height_in_pixels>612</page_height_in_pixels>
+        <page_size>Letter</page_size>
+        <page_width_in_pixels>792</page_width_in_pixels>
+        <report display_value="* Daily Comp Moves Furniture">5181c6efdbc933c08ff4e39d0b961945</report>
+        <report_body/>
+        <report_title/>
+        <run_as display_value="Aaron Schmid">64316b0990dd890067b602c75c7ec630</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2020-07-17 14:43:00</run_start>
+        <run_time>1970-01-01 06:00:00</run_time>
+        <run_type>daily</run_type>
+        <sys_class_name>sysauto_report</sys_class_name>
+        <sys_created_by>aaron.schmid</sys_created_by>
+        <sys_created_on>2020-07-17 14:43:40</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>98d692fd1b8ed4d0123b0d076e4bcb58</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Report 2</sys_name>
+        <sys_package display_value="COVID-19 Tracking" source="x_nefm_covid_19_tr">67609e1b1b3d10d0fc3c2f876e4bcbc1</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="COVID-19 Tracking">67609e1b1b3d10d0fc3c2f876e4bcbc1</sys_scope>
+        <sys_update_name>sysauto_report_98d692fd1b8ed4d0123b0d076e4bcb58</sys_update_name>
+        <sys_updated_by>aaron.schmid</sys_updated_by>
+        <sys_updated_on>2020-07-17 14:43:40</sys_updated_on>
+        <upgrade_safe>false</upgrade_safe>
+        <user_list/>
+        <zip>false</zip>
+    </sysauto_report>
+</record_update>

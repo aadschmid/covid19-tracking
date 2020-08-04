@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_snapshot">
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <annotation>Is case created by user a covid-19 HR admin?</annotation>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Check if case created by user is in the COVID-19 HR Admin group on COVID-19 tracking application
+-AA</description>
+        <internal_name>covid-19-hr-admin-check</internal_name>
+        <label_cache>[{"name":"{{action.u_case_created_by}}","label":"action➛Case Created by","type":"action","ref":"sys_user"},{"name":"{{step[4d17a576-effb-4de6-9639-e9c61bf78cf0].i}}","label":"step➛hr_admin➛i","type":"step","ref":""},{"name":"{{step[4d17a576-effb-4de6-9639-e9c61bf78cf0].in}}","label":"step➛hr_admin➛in","type":"step","ref":""},{"name":"{{step[4d17a576-effb-4de6-9639-e9c61bf78cf0].ing}}","label":"step➛hr_admin➛ing","type":"step","ref":""},{"name":"{{step[4d17a576-effb-4de6-9639-e9c61bf78cf0].ingr}}","label":"step➛hr_admin➛ingr","type":"step","ref":""},{"name":"{{step[4d17a576-effb-4de6-9639-e9c61bf78cf0].ingro}}","label":"step➛hr_admin➛ingro","type":"step","ref":""},{"name":"{{step[4d17a576-effb-4de6-9639-e9c61bf78cf0].ingrou}}","label":"step➛hr_admin➛ingrou","type":"step","ref":""},{"name":"{{step[4d17a576-effb-4de6-9639-e9c61bf78cf0].ingroup}}","label":"step➛hr_admin➛ingroup","type":"step","ref":""}]</label_cache>
+        <master>true</master>
+        <name>covid-19-hr-admin-check</name>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="covid-19-hr-admin-check">901d5d951b8298d0fc3c2f876e4bcb47</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>aaron.schmid</sys_created_by>
+        <sys_created_on>2020-07-15 21:36:57</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>e542a9111bc298d0fc3c2f876e4bcb80</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>covid-19-hr-admin-check</sys_name>
+        <sys_package display_value="COVID-19 Tracking" source="x_nefm_covid_19_tr">67609e1b1b3d10d0fc3c2f876e4bcbc1</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="COVID-19 Tracking">67609e1b1b3d10d0fc3c2f876e4bcbc1</sys_scope>
+        <sys_update_name>sys_hub_action_type_snapshot_e542a9111bc298d0fc3c2f876e4bcb80</sys_update_name>
+        <sys_updated_by>aaron.schmid</sys_updated_by>
+        <sys_updated_on>2020-07-15 21:52:16</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_variable_value action="delete_multiple" query="document_key=e542a9111bc298d0fc3c2f876e4bcb80"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>e542a9111bc298d0fc3c2f876e4bcb80</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>aaron.schmid</sys_created_by>
+        <sys_created_on>2020-07-15 21:52:16</sys_created_on>
+        <sys_id>46c561551bc298d0fc3c2f876e4bcb20</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>aaron.schmid</sys_updated_by>
+        <sys_updated_on>2020-07-15 21:52:16</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">0ec561551bc298d0fc3c2f876e4bcb17</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=e542a9111bc298d0fc3c2f876e4bcb80"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ingroup</field>
+        <id>e542a9111bc298d0fc3c2f876e4bcb80</id>
+        <sys_created_by>aaron.schmid</sys_created_by>
+        <sys_created_on>2020-07-15 21:52:16</sys_created_on>
+        <sys_id>c2c561551bc298d0fc3c2f876e4bcb20</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>aaron.schmid</sys_updated_by>
+        <sys_updated_on>2020-07-15 21:52:16</sys_updated_on>
+        <table>var__m_sys_hub_action_output_e542a9111bc298d0fc3c2f876e4bcb80</table>
+        <value>{{step[4d17a576-effb-4de6-9639-e9c61bf78cf0].ingroup}}</value>
+    </sys_element_mapping>
+</record_update>

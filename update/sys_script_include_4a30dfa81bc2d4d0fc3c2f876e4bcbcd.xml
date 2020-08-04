@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_nefm_covid_19_tr.popuserCovid</api_name>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>popuserCovid</name>
+        <script><![CDATA[var popuserCovid = Class.create();
+popuserCovid.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+getInfo: function(){
+   var obj={};
+   obj.name='';
+   obj.department='';
+   obj.location='';
+   obj.email='';
+   obj.phone='';
+   obj.street='';
+   obj.title='';
+   var id=this.getParameter('sysparm_user_id');
+   var gr= new GlideRecord('sys_user');
+   if(gr.get(id)){ 
+   if(gr.location!='')
+
+	obj.name=gr.name.toString();
+	obj.department=gr.department.toString();
+    obj.location=gr.location.toString();
+	obj.email=gr.email.toString();
+	obj.phone=gr.phone.toString();
+    obj.zip=gr.zip.toString();
+	obj.street=gr.street.toString();
+	obj.title=gr.title.toString();
+//gs.addInfoMessage(gr.location.city);
+   }
+
+   return JSON.stringify(obj);
+
+   },
+	
+    type: 'popuserCovid'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>aaron.schmid</sys_created_by>
+        <sys_created_on>2020-07-13 21:42:48</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>4a30dfa81bc2d4d0fc3c2f876e4bcbcd</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>popuserCovid</sys_name>
+        <sys_package display_value="COVID-19 Tracking" source="x_nefm_covid_19_tr">67609e1b1b3d10d0fc3c2f876e4bcbc1</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="COVID-19 Tracking">67609e1b1b3d10d0fc3c2f876e4bcbc1</sys_scope>
+        <sys_update_name>sys_script_include_4a30dfa81bc2d4d0fc3c2f876e4bcbcd</sys_update_name>
+        <sys_updated_by>aaron.schmid</sys_updated_by>
+        <sys_updated_on>2020-08-03 22:06:15</sys_updated_on>
+    </sys_script_include>
+</record_update>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <misc>0</misc>
+        <order>2</order>
+        <question display_value="Have you been to any of the following?">217fe4e31bc61414fc3c2f876e4bcb86</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>aaron.schmid</sys_created_by>
+        <sys_created_on>2020-07-22 17:41:17</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ed7fe4e31bc61414fc3c2f876e4bcb9b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Social gatherings</sys_name>
+        <sys_package display_value="COVID-19 Tracking" source="x_nefm_covid_19_tr">67609e1b1b3d10d0fc3c2f876e4bcbc1</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="COVID-19 Tracking">67609e1b1b3d10d0fc3c2f876e4bcbc1</sys_scope>
+        <sys_update_name>question_choice_ed7fe4e31bc61414fc3c2f876e4bcb9b</sys_update_name>
+        <sys_updated_by>aaron.schmid</sys_updated_by>
+        <sys_updated_on>2020-07-22 17:41:17</sys_updated_on>
+        <text>Social gatherings</text>
+        <value>social gatherings</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=ed7fe4e31bc61414fc3c2f876e4bcb9b"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>misc</field>
+        <id>ed7fe4e31bc61414fc3c2f876e4bcb9b</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>aaron.schmid</sys_created_by>
+        <sys_created_on>2020-07-22 17:41:17</sys_created_on>
+        <sys_id>617fe4e31bc61414fc3c2f876e4bcb9d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>aaron.schmid</sys_updated_by>
+        <sys_updated_on>2020-07-22 17:41:17</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_misc</field>
+        <id>ed7fe4e31bc61414fc3c2f876e4bcb9b</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>aaron.schmid</sys_created_by>
+        <sys_created_on>2020-07-22 17:41:17</sys_created_on>
+        <sys_id>297fe4e31bc61414fc3c2f876e4bcb9c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>aaron.schmid</sys_updated_by>
+        <sys_updated_on>2020-07-22 17:41:17</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Contact Tracing - Individual" section_id="0e4fc5141b8654d0fc3c2f876e4bcb7c" sys_domain="global" table="x_nefm_covid_19_tr_cases" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_staff_how</element>
+            <position>0</position>
+            <sys_created_by>aaron.schmid</sys_created_by>
+            <sys_created_on>2020-07-29 18:40:57</sys_created_on>
+            <sys_id>7f30c1391b92dc14fc3c2f876e4bcbe7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Contact Tracing - Individual" display_value="Contact Tracing - Individual" name="x_nefm_covid_19_tr_cases" sys_domain="global" view="Default view">0e4fc5141b8654d0fc3c2f876e4bcb7c</sys_ui_section>
+            <sys_updated_by>aaron.schmid</sys_updated_by>
+            <sys_updated_on>2020-07-29 18:40:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_staff_who_from</element>
+            <position>1</position>
+            <sys_created_by>aaron.schmid</sys_created_by>
+            <sys_created_on>2020-07-29 18:40:57</sys_created_on>
+            <sys_id>f730c1391b92dc14fc3c2f876e4bcbe8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Contact Tracing - Individual" display_value="Contact Tracing - Individual" name="x_nefm_covid_19_tr_cases" sys_domain="global" view="Default view">0e4fc5141b8654d0fc3c2f876e4bcb7c</sys_ui_section>
+            <sys_updated_by>aaron.schmid</sys_updated_by>
+            <sys_updated_on>2020-07-29 18:40:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_staff_when_con</element>
+            <position>2</position>
+            <sys_created_by>aaron.schmid</sys_created_by>
+            <sys_created_on>2020-07-29 18:40:57</sys_created_on>
+            <sys_id>7f30c1391b92dc14fc3c2f876e4bcbe8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Contact Tracing - Individual" display_value="Contact Tracing - Individual" name="x_nefm_covid_19_tr_cases" sys_domain="global" view="Default view">0e4fc5141b8654d0fc3c2f876e4bcb7c</sys_ui_section>
+            <sys_updated_by>aaron.schmid</sys_updated_by>
+            <sys_updated_on>2020-07-29 18:40:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_staff_what</element>
+            <position>3</position>
+            <sys_created_by>aaron.schmid</sys_created_by>
+            <sys_created_on>2020-07-29 18:40:57</sys_created_on>
+            <sys_id>f330c1391b92dc14fc3c2f876e4bcbe9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Contact Tracing - Individual" display_value="Contact Tracing - Individual" name="x_nefm_covid_19_tr_cases" sys_domain="global" view="Default view">0e4fc5141b8654d0fc3c2f876e4bcb7c</sys_ui_section>
+            <sys_updated_by>aaron.schmid</sys_updated_by>
+            <sys_updated_on>2020-07-29 18:40:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_staff_mask_yesno</element>
+            <position>4</position>
+            <sys_created_by>aaron.schmid</sys_created_by>
+            <sys_created_on>2020-07-29 18:40:57</sys_created_on>
+            <sys_id>7b30c1391b92dc14fc3c2f876e4bcbe9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Contact Tracing - Individual" display_value="Contact Tracing - Individual" name="x_nefm_covid_19_tr_cases" sys_domain="global" view="Default view">0e4fc5141b8654d0fc3c2f876e4bcb7c</sys_ui_section>
+            <sys_updated_by>aaron.schmid</sys_updated_by>
+            <sys_updated_on>2020-07-29 18:40:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_staff_mask_correctly</element>
+            <position>5</position>
+            <sys_created_by>aaron.schmid</sys_created_by>
+            <sys_created_on>2020-07-29 18:40:57</sys_created_on>
+            <sys_id>ff30c1391b92dc14fc3c2f876e4bcbe9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Contact Tracing - Individual" display_value="Contact Tracing - Individual" name="x_nefm_covid_19_tr_cases" sys_domain="global" view="Default view">0e4fc5141b8654d0fc3c2f876e4bcb7c</sys_ui_section>
+            <sys_updated_by>aaron.schmid</sys_updated_by>
+            <sys_updated_on>2020-07-29 18:40:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_staff_where_list</element>
+            <position>6</position>
+            <sys_created_by>aaron.schmid</sys_created_by>
+            <sys_created_on>2020-07-29 18:40:57</sys_created_on>
+            <sys_id>7730c1391b92dc14fc3c2f876e4bcbea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Contact Tracing - Individual" display_value="Contact Tracing - Individual" name="x_nefm_covid_19_tr_cases" sys_domain="global" view="Default view">0e4fc5141b8654d0fc3c2f876e4bcb7c</sys_ui_section>
+            <sys_updated_by>aaron.schmid</sys_updated_by>
+            <sys_updated_on>2020-07-29 18:40:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_staff_other_places</element>
+            <position>7</position>
+            <sys_created_by>aaron.schmid</sys_created_by>
+            <sys_created_on>2020-07-29 18:40:57</sys_created_on>
+            <sys_id>fb30c1391b92dc14fc3c2f876e4bcbea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Contact Tracing - Individual" display_value="Contact Tracing - Individual" name="x_nefm_covid_19_tr_cases" sys_domain="global" view="Default view">0e4fc5141b8654d0fc3c2f876e4bcb7c</sys_ui_section>
+            <sys_updated_by>aaron.schmid</sys_updated_by>
+            <sys_updated_on>2020-07-29 18:40:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_staff_travel</element>
+            <position>8</position>
+            <sys_created_by>aaron.schmid</sys_created_by>
+            <sys_created_on>2020-07-29 18:40:57</sys_created_on>
+            <sys_id>7330c1391b92dc14fc3c2f876e4bcbeb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Contact Tracing - Individual" display_value="Contact Tracing - Individual" name="x_nefm_covid_19_tr_cases" sys_domain="global" view="Default view">0e4fc5141b8654d0fc3c2f876e4bcb7c</sys_ui_section>
+            <sys_updated_by>aaron.schmid</sys_updated_by>
+            <sys_updated_on>2020-07-29 18:40:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_staff_travel_where</element>
+            <position>9</position>
+            <sys_created_by>aaron.schmid</sys_created_by>
+            <sys_created_on>2020-07-29 18:40:57</sys_created_on>
+            <sys_id>f730c1391b92dc14fc3c2f876e4bcbeb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Contact Tracing - Individual" display_value="Contact Tracing - Individual" name="x_nefm_covid_19_tr_cases" sys_domain="global" view="Default view">0e4fc5141b8654d0fc3c2f876e4bcb7c</sys_ui_section>
+            <sys_updated_by>aaron.schmid</sys_updated_by>
+            <sys_updated_on>2020-07-29 18:40:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_staff_travel_when_from</element>
+            <position>10</position>
+            <sys_created_by>aaron.schmid</sys_created_by>
+            <sys_created_on>2020-07-29 18:40:57</sys_created_on>
+            <sys_id>7f30c1391b92dc14fc3c2f876e4bcbeb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Contact Tracing - Individual" display_value="Contact Tracing - Individual" name="x_nefm_covid_19_tr_cases" sys_domain="global" view="Default view">0e4fc5141b8654d0fc3c2f876e4bcb7c</sys_ui_section>
+            <sys_updated_by>aaron.schmid</sys_updated_by>
+            <sys_updated_on>2020-07-29 18:40:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_staff_travel_return</element>
+            <position>11</position>
+            <sys_created_by>aaron.schmid</sys_created_by>
+            <sys_created_on>2020-07-29 18:40:57</sys_created_on>
+            <sys_id>f330c1391b92dc14fc3c2f876e4bcbec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Contact Tracing - Individual" display_value="Contact Tracing - Individual" name="x_nefm_covid_19_tr_cases" sys_domain="global" view="Default view">0e4fc5141b8654d0fc3c2f876e4bcb7c</sys_ui_section>
+            <sys_updated_by>aaron.schmid</sys_updated_by>
+            <sys_updated_on>2020-07-29 18:40:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Contact Tracing - Individual</caption>
+            <header>false</header>
+            <name>x_nefm_covid_19_tr_cases</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>aaron.schmid</sys_created_by>
+            <sys_created_on>2020-07-12 17:40:03</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>0e4fc5141b8654d0fc3c2f876e4bcb7c</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Contact Tracing - Individual</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="COVID-19 Tracking" source="x_nefm_covid_19_tr">67609e1b1b3d10d0fc3c2f876e4bcbc1</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="COVID-19 Tracking">67609e1b1b3d10d0fc3c2f876e4bcbc1</sys_scope>
+            <sys_update_name>sys_ui_section_0e4fc5141b8654d0fc3c2f876e4bcb7c</sys_update_name>
+            <sys_updated_by>aaron.schmid</sys_updated_by>
+            <sys_updated_on>2020-07-29 18:40:55</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
+    <sp_instance_link action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph>th-list</glyph>
+        <id/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <order>1</order>
+        <roles/>
+        <sc_cat_item/>
+        <sc_category/>
+        <short_description>View all COVID-19 cases you have reported</short_description>
+        <size>md</size>
+        <sp_column display_value="3">a626e3591bd2d414123b0d076e4bcbab</sp_column>
+        <sp_page/>
+        <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>aaron.schmid</sys_created_by>
+        <sys_created_on>2020-07-28 18:30:56</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>5b54f3191b16d414123b0d076e4bcb56</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>All My Cases</sys_name>
+        <sys_package display_value="COVID-19 Tracking" source="x_nefm_covid_19_tr">67609e1b1b3d10d0fc3c2f876e4bcbc1</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="COVID-19 Tracking">67609e1b1b3d10d0fc3c2f876e4bcbc1</sys_scope>
+        <sys_update_name>sp_instance_link_5b54f3191b16d414123b0d076e4bcb56</sys_update_name>
+        <sys_updated_by>aaron.schmid</sys_updated_by>
+        <sys_updated_on>2020-07-29 18:14:43</sys_updated_on>
+        <title>All My Cases</title>
+        <type>url</type>
+        <url>https://nfmtest.service-now.com/x_nefm_covid_19_tr_cases_list.do?sysparm_userpref_module=124590311bde9c14fc3c2f876e4bcb57&amp;sysparm_query=u_reported_byDYNAMIC90d1921e5f510100a9ad2572f2b477fe^EQ&amp;sysparm_clear_stack=true</url>
+        <widget_parameters><![CDATA[{
+	"link_template": {
+		"value": "Top Icon",
+		"displayValue": "Top Icon"
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="delete_multiple" query="documentkey=5b54f3191b16d414123b0d076e4bcb56"/>
+</record_update>

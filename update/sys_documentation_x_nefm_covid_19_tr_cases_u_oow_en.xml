@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_oow" label="Do you know of any out of work activities where the individual could have been e" language="en" table="x_nefm_covid_19_tr_cases">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_oow</element>
+            <help/>
+            <hint/>
+            <label>Do you know of any out of work activities where the individual could have been e</label>
+            <language>en</language>
+            <name>x_nefm_covid_19_tr_cases</name>
+            <plural>Do you know of any out of work activities where the individual could have been e</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>aaron.schmid</sys_created_by>
+            <sys_created_on>2020-07-14 20:49:18</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>f5cd84411b8214d0123b0d076e4bcba2</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_name>Do you know of any out of work activities where the individual could have been e</sys_name>
+            <sys_package display_value="COVID-19 Tracking" source="x_nefm_covid_19_tr">67609e1b1b3d10d0fc3c2f876e4bcbc1</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="COVID-19 Tracking">67609e1b1b3d10d0fc3c2f876e4bcbc1</sys_scope>
+            <sys_update_name>sys_documentation_x_nefm_covid_19_tr_cases_u_oow_en</sys_update_name>
+            <sys_updated_by>aaron.schmid</sys_updated_by>
+            <sys_updated_on>2020-07-29 18:40:56</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

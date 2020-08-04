@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_relationship">
+    <sys_relationship action="INSERT_OR_UPDATE">
+        <advanced>false</advanced>
+        <apply_to/>
+        <basic_apply_to>x_nefm_covid_19_tr_cases</basic_apply_to>
+        <basic_query_from>sysapproval_approver</basic_query_from>
+        <insert_callback/>
+        <name>Approval on COVID-19 Tracking</name>
+        <query_from/>
+        <query_with><![CDATA[current.addQuery("document_id",parent.sys_id);]]></query_with>
+        <reference_field>sysapproval</reference_field>
+        <related_list/>
+        <simple_reference>false</simple_reference>
+        <sys_class_name>sys_relationship</sys_class_name>
+        <sys_created_by>aaron.schmid</sys_created_by>
+        <sys_created_on>2020-07-21 20:03:15</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>44d588571b42d014fc3c2f876e4bcb83</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Approval on COVID-19 Tracking</sys_name>
+        <sys_package display_value="COVID-19 Tracking" source="x_nefm_covid_19_tr">67609e1b1b3d10d0fc3c2f876e4bcbc1</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="COVID-19 Tracking">67609e1b1b3d10d0fc3c2f876e4bcbc1</sys_scope>
+        <sys_update_name>sys_relationship_44d588571b42d014fc3c2f876e4bcb83</sys_update_name>
+        <sys_updated_by>aaron.schmid</sys_updated_by>
+        <sys_updated_on>2020-07-21 20:03:15</sys_updated_on>
+    </sys_relationship>
+    <sys_translated_text action="delete_multiple" query="documentkey=44d588571b42d014fc3c2f876e4bcb83"/>
+</record_update>

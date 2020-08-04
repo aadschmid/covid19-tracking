@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Primary flow for COVID-19 Tracking application </description>
+        <internal_name>covid-19</internal_name>
+        <label_cache>[{"name":"Created_1.current.u_status","label":"Trigger➛Cases Record➛Status","reference":"","reference_display":"Status","type":"choice","base_type":"choice","parent_table_name":"x_nefm_covid_19_tr_cases","column_name":"u_status"},{"name":"Created_1.current.u_reported_date","label":"Trigger➛Cases Record➛Reported date","reference":"","reference_display":"Reported date","type":"glide_date","base_type":"glide_date","parent_table_name":"x_nefm_covid_19_tr_cases","column_name":"u_reported_date"},{"name":"Created_1.current.u_choose_staff_member.manager","label":"Trigger➛Cases Record➛Staff member exposed➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"},{"name":"203dbdaf-7f7c-4764-b831-e1bafdefd43b.email","label":"1.1➛email","reference":"sys_email","reference_display":"email","type":"reference","base_type":"reference"},{"name":"20736bf4-4703-42c6-bedc-a812c8544d9f.ingroup","label":"1➛inGroup","reference_display":"inGroup","type":"boolean","base_type":"boolean"},{"name":"Created_1.current","label":"Trigger➛Cases Record","reference":"x_nefm_covid_19_tr_cases","reference_display":"Cases","type":"reference","base_type":"reference"},{"name":"Created_1.current.u_case_created_by","label":"Trigger➛Cases Record➛Case created by","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_nefm_covid_19_tr_cases","column_name":"u_case_created_by"},{"name":"65ca9dc9-bd90-4bcf-9320-f7ac03cd03c2.Record","label":"1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"65ca9dc9-bd90-4bcf-9320-f7ac03cd03c2.Table","label":"1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"20c45ace-8e2b-4355-9103-17672db0bb2c.email","label":"2➛email","reference":"sys_email","reference_display":"email","type":"reference","base_type":"reference"},{"name":"Created_1.current.u_reported_by.manager","label":"Trigger➛Cases Record➛Reported by➛Manager","reference":"sys_user","reference_display":"Manager","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"},{"name":"Created_1.current.u_choose_staff_member","label":"Trigger➛Cases Record➛Staff member exposed","reference":"sys_user","reference_display":"Staff member exposed","type":"reference","base_type":"reference","parent_table_name":"x_nefm_covid_19_tr_cases","column_name":"u_choose_staff_member"}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>COVID-19 </name>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>aaron.schmid</sys_created_by>
+        <sys_created_on>2020-07-15 20:04:51</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>583d85151b4298d0fc3c2f876e4bcba9</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>COVID-19 </sys_name>
+        <sys_package display_value="COVID-19 Tracking" source="x_nefm_covid_19_tr">67609e1b1b3d10d0fc3c2f876e4bcbc1</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="COVID-19 Tracking">67609e1b1b3d10d0fc3c2f876e4bcbc1</sys_scope>
+        <sys_update_name>sys_hub_flow_583d85151b4298d0fc3c2f876e4bcba9</sys_update_name>
+        <sys_updated_by>aaron.schmid</sys_updated_by>
+        <sys_updated_on>2020-07-21 22:47:21</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_variable_value action="delete_multiple" query="document_key=583d85151b4298d0fc3c2f876e4bcba9"/>
+</record_update>

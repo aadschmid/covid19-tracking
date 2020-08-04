@@ -1,5 +1,186 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element audit="true" label="Cases" max_length="40" name="x_nefm_covid_19_tr_cases" type="collection">
-        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element label="Active" max_length="40" name="u_active" type="boolean"/>
+        <element active="false" default="javascript:gs.getUserID();" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Case created by" max_length="32" name="u_case_created_by" read_only="true" reference="sys_user" type="reference" use_dynamic_default="true"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="new" label="Case status" max_length="40" name="u_case_status" read_only="true" type="string">
+            <choice>
+                <element inactive_on_update="false" label="New" sequence="0" value="new"/>
+                <element inactive_on_update="false" label="Pending Approval" sequence="1" value="pending approval"/>
+                <element inactive_on_update="false" label="Rejected" sequence="2" value="rejected"/>
+                <element inactive_on_update="false" label="Resubmitted" sequence="3" value="resubmitted"/>
+                <element inactive_on_update="false" label="Resubmitted Test Results" sequence="4" value="resubmitted test results"/>
+                <element inactive_on_update="false" label="Approved - Monitoring" sequence="5" value="approved - monitoring"/>
+                <element inactive_on_update="false" label="Closed" sequence="6" value="closed"/>
+                <element inactive_on_update="false" label="Awaiting Test Results" sequence="7" value="awaiting test results"/>
+            </choice>
+        </element>
+        <element label="Staff member exposed" max_length="32" name="u_choose_staff_member" reference="sys_user" reference_qual="active=true^user_nameISNOTEMPTY^employee_numberISNOTEMPTY^user_name!=365.test1^EQ" reference_qual_condition="active=true^user_nameISNOTEMPTY^employee_numberISNOTEMPTY^user_name!=365.test1^EQ" type="reference"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Please list close contact staff members" max_length="1024" name="u_close_contact_list" reference="sys_user" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Has the individual come in close contact with anyone in the past two days?" max_length="40" name="u_close_contact_yesno" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Date of exposure" max_length="40" name="u_date_of_exposure" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Days worked in the past two days" max_length="40" name="u_days_worked" type="string"/>
+        <element label="Department" mandatory="true" max_length="32" name="u_department" reference="cmn_department" reference_qual="idISNOTEMPTY^EQ" reference_qual_condition="idISNOTEMPTY^EQ" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Date he/she began feeling ill" max_length="40" name="u_feeling_ill_date" type="glide_date"/>
+        <element label="Explain how the individual was exposed" max_length="40" name="u_how_exposed" type="multi_small"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Where does the individual think they were exposed?" max_length="40" name="u_how_think_exposed" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Not at NFM / Unsure" sequence="0" value="outside of work"/>
+                <element inactive_on_update="false" label="At NFM" sequence="1" value="at work"/>
+            </choice>
+        </element>
+        <element label="HR admin" max_length="40" name="u_hr_admin_check" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Last date worked" mandatory="true" max_length="40" name="u_last_date_worked" type="glide_date"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Please list limited contact staff members" max_length="1024" name="u_limited_contact_list" reference="sys_user" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Has the individual had limited contact with anyone in the past two days?" max_length="40" name="u_limited_contact_yesno" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
+        <element label="Location" mandatory="true" max_length="32" name="u_location" reference="cmn_location" reference_qual="city=Omaha^ORcity=Kansas City^ORcity=Des Moines^ORcity=The Colony^EQ" reference_qual_condition="city=Omaha^ORcity=Kansas City^ORcity=Des Moines^ORcity=The Colony^EQ" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Location" max_length="40" name="u_location_choice" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Des Moines" sequence="0" value="des moines"/>
+                <element inactive_on_update="false" label="Kansas City" sequence="1" value="kansas city"/>
+                <element inactive_on_update="false" label="Omaha" sequence="2" value="omaha"/>
+                <element inactive_on_update="false" label="The Colony" sequence="3" value="the colony"/>
+            </choice>
+        </element>
+        <element label="Comments" max_length="40" name="u_mgr_comments" type="multi_small"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Do you know how the individual got COVID-19?" mandatory="true" max_length="40" name="u_mgr_how_contracted" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
+        <element label="Explain" max_length="40" name="u_mgr_oow_activities" type="multi_small"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Please specify" max_length="1024" name="u_mgr_staff_list" reference="sys_user" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Do you know of any staff members who may have exposed this person to COVID-19?" max_length="40" name="u_mgr_staff_mem" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="If applicable, does this staff member want to go into a negative PTO balance?" max_length="40" name="u_neg_pto_bal" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
+        <element label="Description of exposure" max_length="40" name="u_non_staff_exp_desc" type="multi_small"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Reason staff member is not working" mandatory="true" max_length="40" name="u_not_working_reason" type="string">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="Own health concern" sequence="0" value="own health concern"/>
+                <element inactive_on_update="false" label="Showing symptoms" sequence="0" value="showing symptoms"/>
+                <element inactive_on_update="false" label="Exposure to someone who tested positive" sequence="1" value="exposure to someone who tested positive"/>
+                <element inactive_on_update="false" label="Travel related" sequence="2" value="travel related"/>
+                <element inactive_on_update="false" label="Tested positive" sequence="3" value="tested positive"/>
+                <element inactive_on_update="false" label="Other" sequence="4" value="other"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Do you know of any out of work activities where the individual could have been e" max_length="40" name="u_oow" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Other reason" max_length="40" name="u_other_reason" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Date positive test received" max_length="40" name="u_pos_test_rec_date" type="glide_date"/>
+        <element default="javascript:gs.getUserID();" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Reported by" max_length="32" name="u_reported_by" read_only="true" reference="sys_user" type="reference" use_dynamic_default="true"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:gs.now()" dynamic_default_value="fb7553e85f220100a9ad2572f2b477b4" label="Reported date" max_length="40" name="u_reported_date" read_only="true" type="glide_date" use_dynamic_default="true"/>
+        <element attributes="edge_encryption_enabled=true" label="Return to work date" mandatory="true" max_length="40" name="u_return_to_work_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Please specify" max_length="40" name="u_specify" type="string"/>
+        <element label="Please provide any additional comments you may have" max_length="40" name="u_staff_add_comments" type="multi_small"/>
+        <element label="How do you think you contracted COVID-19?" mandatory="true" max_length="40" name="u_staff_how" type="multi_small"/>
+        <element label="Were you wearing your mask at all times while at work? What were you doing?" mandatory="true" max_length="40" name="u_staff_mask" type="multi_small"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Were you wearing your mask correctly?" max_length="40" name="u_staff_mask_correctly" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Were you wearing your mask at all times at work?" max_length="40" name="u_staff_mask_yesno" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Was the person exposed an NFM staff member?" mandatory="true" max_length="40" name="u_staff_member" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
+        <element label="What other places have you been to outside of NFM prior to testing positive?" max_length="40" name="u_staff_other_places" type="multi_small"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Have you traveled domestically or internationally within the last 30 days?" max_length="40" name="u_staff_travel" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="When did you return?" max_length="40" name="u_staff_travel_return" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="When did you get there?" max_length="40" name="u_staff_travel_when_from" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Where did you go?" max_length="40" name="u_staff_travel_where" type="string"/>
+        <element label="What were you doing?" max_length="40" name="u_staff_what" type="multi_small"/>
+        <element label="When do you think you contracted COVID-19?" max_length="40" name="u_staff_when_con" type="multi_small"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Have you been to any of the following?" mandatory="true" max_length="40" name="u_staff_where" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Grocery store" sequence="0" value="grocery store"/>
+                <element inactive_on_update="false" label="Social gatherings" sequence="1" value="social gatherings"/>
+                <element inactive_on_update="false" label="Restaurants / Bars" sequence="2" value="restaurants / bars"/>
+                <element inactive_on_update="false" label="Gas station" sequence="3" value="gas station"/>
+                <element inactive_on_update="false" label="Gym" sequence="4" value="gym"/>
+                <element inactive_on_update="false" label="Shared a vehicle" sequence="5" value="shared a vehicle"/>
+                <element inactive_on_update="false" label="Live with someone" sequence="6" value="live with someone"/>
+                <element inactive_on_update="false" label="Live with someone who tested positive" sequence="7" value="live with someone who tested positive"/>
+                <element inactive_on_update="false" label="Been with someone outside of work who tested positive" sequence="8" value="been with someone outside of work who tested positive"/>
+            </choice>
+        </element>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Have you been to any of the following?" max_length="1024" name="u_staff_where_list" reference="question_choice" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" label="Have you been to any of the following?" max_length="150" name="u_staff_where_string" type="string"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Who do you think you contracted it from?" max_length="1024" name="u_staff_who_from" reference="sys_user" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Employee status" mandatory="true" max_length="40" name="u_status" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Out - Quarantined" sequence="0" value="out"/>
+                <element inactive_on_update="false" label="Returned" sequence="1" value="returned"/>
+                <element inactive_on_update="false" label="Terminated" sequence="2" value="terminated / did not return"/>
+                <element inactive_on_update="false" label="Out - Working from home" sequence="3" value="wfh"/>
+                <element inactive_on_update="false" label="Out - (LOA)" sequence="4" value="loa"/>
+            </choice>
+        </element>
+        <element label="Status comments" max_length="40" name="u_status_comments" type="multi_small"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Test results" mandatory="true" max_length="40" name="u_test_results" type="string">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="Clinical positive (No test" sequence="0" value="Clinical positive (No test"/>
+                <element inactive_on_update="false" label="Positive" sequence="0" value="positive"/>
+                <element inactive_on_update="false" label="Clinical positive (Diagnosed by medical professional)" sequence="1" value="Clinical positive - No test"/>
+                <element inactive_on_update="false" label="Negative" sequence="2" value="negative"/>
+                <element inactive_on_update="false" label="Did not test" sequence="3" value="did not test"/>
+                <element inactive_on_update="false" label="Pending test results" sequence="4" value="pending test results"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Test results last updated" max_length="40" name="u_test_results_time_stamp" read_only="true" type="glide_date_time"/>
+        <element label="List all work areas in past two days" max_length="40" name="u_work_areas_list" type="multi_small"/>
+        <index name="index">
+            <element name="u_reported_by"/>
+        </index>
+        <index name="index2">
+            <element name="u_choose_staff_member"/>
+        </index>
+        <index name="index3">
+            <element name="u_department"/>
+        </index>
+        <index name="index4">
+            <element name="u_case_created_by"/>
+        </index>
+        <index name="index5">
+            <element name="u_location"/>
+        </index>
     </element>
 </database>

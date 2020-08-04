@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>u_not_working_reason</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>aaron.schmid</sys_created_by>
+        <sys_created_on>2020-07-14 20:22:39</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>7f9700891b4214d0123b0d076e4bcba9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_not_working_reason</sys_name>
+        <sys_package display_value="COVID-19 Tracking" source="x_nefm_covid_19_tr">67609e1b1b3d10d0fc3c2f876e4bcbc1</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="COVID-19 Tracking">67609e1b1b3d10d0fc3c2f876e4bcbc1</sys_scope>
+        <sys_update_name>sys_ui_policy_action_7f9700891b4214d0123b0d076e4bcba9</sys_update_name>
+        <sys_updated_by>aaron.schmid</sys_updated_by>
+        <sys_updated_on>2020-07-14 20:22:39</sys_updated_on>
+        <table>x_nefm_covid_19_tr_cases</table>
+        <ui_policy display_value="Staff member">2d8203a81b82d4d0fc3c2f876e4bcb05</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+</record_update>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_flow_cat_variable_model">
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>7bf5a5551bc298d0fc3c2f876e4bcb13</id>
+        <name>COVID-19 </name>
+        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
+        <sys_created_by>aaron.schmid</sys_created_by>
+        <sys_created_on>2020-07-15 21:53:13</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>7bf5a5551bc298d0fc3c2f876e4bcb14</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>COVID-19 </sys_name>
+        <sys_package display_value="COVID-19 Tracking" source="x_nefm_covid_19_tr">67609e1b1b3d10d0fc3c2f876e4bcbc1</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="COVID-19 Tracking">67609e1b1b3d10d0fc3c2f876e4bcbc1</sys_scope>
+        <sys_update_name>sys_flow_cat_variable_model_7bf5a5551bc298d0fc3c2f876e4bcb14</sys_update_name>
+        <sys_updated_by>aaron.schmid</sys_updated_by>
+        <sys_updated_on>2020-07-15 21:53:13</sys_updated_on>
+    </sys_flow_cat_variable_model>
+</record_update>

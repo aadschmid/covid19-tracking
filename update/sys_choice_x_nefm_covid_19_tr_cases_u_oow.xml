@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_oow" table="x_nefm_covid_19_tr_cases" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_oow</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Yes</label>
+            <language>en</language>
+            <name>x_nefm_covid_19_tr_cases</name>
+            <sequence>0</sequence>
+            <sys_created_by>aaron.schmid</sys_created_by>
+            <sys_created_on>2020-07-14 20:49:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>75cdc4411b8214d0123b0d076e4bcb47</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>aaron.schmid</sys_updated_by>
+            <sys_updated_on>2020-07-14 20:49:19</sys_updated_on>
+            <value>yes</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_oow</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No</label>
+            <language>en</language>
+            <name>x_nefm_covid_19_tr_cases</name>
+            <sequence>1</sequence>
+            <sys_created_by>aaron.schmid</sys_created_by>
+            <sys_created_on>2020-07-14 20:49:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>b5cdc4411b8214d0123b0d076e4bcb48</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>aaron.schmid</sys_updated_by>
+            <sys_updated_on>2020-07-14 20:49:19</sys_updated_on>
+            <value>no</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_oow</element>
+            <name>x_nefm_covid_19_tr_cases</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>aaron.schmid</sys_created_by>
+            <sys_created_on>2020-07-14 20:49:19</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>bdcdc4411b8214d0123b0d076e4bcb47</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_oow</sys_name>
+            <sys_package display_value="COVID-19 Tracking" source="x_nefm_covid_19_tr">67609e1b1b3d10d0fc3c2f876e4bcbc1</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="COVID-19 Tracking">67609e1b1b3d10d0fc3c2f876e4bcbc1</sys_scope>
+            <sys_update_name>sys_choice_x_nefm_covid_19_tr_cases_u_oow</sys_update_name>
+            <sys_updated_by>aaron.schmid</sys_updated_by>
+            <sys_updated_on>2020-07-14 20:49:19</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>
